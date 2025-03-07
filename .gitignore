@@ -1,0 +1,21 @@
+# node_modules 제외
+node_modules/
+
+# 빌드 파일 제외
+.next/
+out/
+dist/
+
+# 환경 변수 파일 제외
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE 설정 파일 제외
+.vscode/
+.idea/
+
+# OS별 불필요한 파일
+.DS_Store
+Thumbs.db
